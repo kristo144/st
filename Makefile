@@ -6,6 +6,7 @@ include config.mk
 
 SRC = st.c x.c boxdraw.c hb.c
 OBJ = $(SRC:.c=.o)
+PREFIX = "${HOME}/.local"
 
 all: options st
 
